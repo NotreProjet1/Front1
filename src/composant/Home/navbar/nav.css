@@ -1,0 +1,336 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(9, 30, 87, 0.966);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.custom-dropdown-menu{
+    background-color: rgba(9, 30, 87, 0.966);
+    border: 1px solid rgb(0, 0, 0);
+
+    color: #ffffff;
+border-radius: 10px;
+}
+
+    
+.droppppp.show {
+    background-color: rgba(0, 0, 0, 0.966);
+    border: 1px solid rgb(58, 196, 255);
+
+    color: #48e7ff;
+border-radius: 10px;
+}
+.custom-dropdown-item{
+    border-bottom: 1px solid snow;
+    border-radius: 10px;
+
+
+
+}
+.custom-dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.966);
+    border: 1px solid aqua;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 20px;
+    }
+}
+
+.nav svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 50px;
+    height: 100px;
+    margin-left: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.droppppp {
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);    
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.droppppp:hover {
+    background-color: rgb(1, 1, 1);
+    border: 1px solid aqua;
+
+
+    color: aqua;
+
+}
+
+.nav svg:hover {
+    color: aqua;
+}
+
+.nav .s1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 150px;
+}
+
+.nav .searchbar {
+    border: 2px solid aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 0 30px 0 rgba(28, 208, 221, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+    width: 50%;
+    position: sticky;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav .searchbar input {
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.nav .searchbar svg {
+    color: aqua;
+}
+
+.nav .searchbar svg:hover {
+    background-color: aqua;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.nav .searchbar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav .s1 .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav .cart {
+    position: relative;
+    margin: 0px 20px;
+}
+
+.droppbas {
+    color: #ffffff;
+}
+
+.droppbas:hover {
+    color: aqua;
+
+    border: 1px solid aqua;
+}
+
+.nav .cart .qty {
+    background-color: aqua;
+    color: white;
+    border-radius: 50%;
+    /* padding: 1px; */
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav .s2 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.nav .s2 a {
+    text-decoration: none;
+    color: white; /* Couleur du texte blanc */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Ombre portée légère */    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav .s2 a:hover {
+    color: aqua;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+}
+
+
+
+.nav .s3 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 20px;
+        background-color: rgb(246, 242, 242);
+    }
+
+
+
+    .nav .s2 {
+        display: none;
+    }
+
+
+    .nav .s3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding: 0px;
+        width: 100%;
+    }
+
+    .nav .s31 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+
+    .nav .searchbar {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    .nav .s3 ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 0px;
+        margin: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav .s3 ul li {
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: aqua;
+        width: 150px;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .nav .s3 .s32 svg {
+        color: white;
+    }
+
+    @media screen and (max-width: 768px) {
+        /* Autres styles pour les petits écrans */
+
+        #dropdown-basic {
+            background-color: aqua;
+            /* Couleur de fond */
+            padding: 10px 20px;
+            /* Ajoutez un peu de rembourrage pour l'espace autour du bouton */
+            border-radius: 20px;
+            /* Ajoutez des coins arrondis */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+            /* Ajoutez une légère ombre */
+            position: relative;
+            /* Position relative pour positionner le badge */
+        }
+
+        #dropdown-basic svg {
+            width: 50px;
+            /* Augmentez la taille de l'icône */
+            height: 50px;
+            /* Augmentez la taille de l'icône */
+            fill: white;
+            /* Couleur de l'icône */
+        }
+
+        #dropdown-basic .badge {
+            background-color: aqua;
+            /* Couleur de fond du badge */
+            color: white;
+            /* Couleur du texte du badge */
+            border-radius: 50%;
+            /* Coins arrondis pour un badge circulaire */
+            padding: 5px;
+            /* Rembourrage pour le badge */
+            font-size: 12px;
+            /* Taille de la police du badge */
+            position: absolute;
+            /* Position absolue pour positionner le badge */
+            top: -5px;
+            /* Position verticale du badge */
+            right: -5px;
+            /* Position horizontale du badge */
+        }
+
+        #dropdown-basic:hover {
+            background-color: aqua;
+        }
+    }
+
+}

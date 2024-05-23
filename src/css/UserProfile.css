@@ -1,0 +1,47 @@
+UserProfile.css
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Ajoutez un espace autour du profil */
+}
+
+.profile-image {
+  position: relative; /* Position relative pour pouvoir positionner le logo */
+}
+
+.profile-image img {
+  width: 150px; /* Définir une largeur fixe pour l'image */
+  height: 150px; /* Définir une hauteur fixe pour l'image */
+  border-radius: 50%; /* Rendre l'image ronde */
+}
+
+/* Si vous voulez superposer un logo sur l'image */
+.profile-image::after {
+  content: ''; /* Ajouter du contenu pour pouvoir appliquer des styles */
+  position: absolute; /* Position absolue pour positionner le logo par rapport à l'image */
+  width: 40px; /* Définir la largeur du logo */
+  height: 40px; /* Définir la hauteur du logo */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT63zWn24q_SrIxyjtH39FnhOnEM3qsT5kuM-iNVm3CMynRSJ8_cU7bnaAkRzWo0FCBuYo&usqp=CAU') no-repeat center center; /* Ajouter votre propre chemin d'accès au logo */
+  background-size: cover; /* Ajuster la taille du logo */
+  border-radius: 50%; /* Rendre le logo rond */
+  top: 10px; /* Positionner le logo verticalement */
+  right: 10px; /* Positionner le logo horizontalement */
+}
+
+.section-title {
+  margin-bottom: 20px; /* Ajouter un espace en bas du titre de section */
+}
+
+.card {
+  border-radius: 15px; /* Arrondir les coins des cartes */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère aux cartes */
+}
+
+.card-body {
+  padding: 20px; /* Ajouter de la marge à l'intérieur des cartes */
+}
+
+.card-text {
+  margin-bottom: 10px; /* Ajouter un espacement entre les éléments de texte */
+}

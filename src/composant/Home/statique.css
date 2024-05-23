@@ -1,0 +1,37 @@
+/* styles.css */
+
+.section-domain {
+    border: 2px solid #53B9CD; /* Rouge transparent */
+    
+  }
+  
+  .section-formation {
+    border: 2px solid #d2177b; /* Vert transparent */
+  }
+  
+  .section-courses {
+    border: 2px solid #896fb0; /* Bleu transparent */
+  }
+  
+  .section-instructors {
+    border: 2px solid #EEBD3F; /* Jaune transparent */
+  }
+  
+  .section-instructors:hover {
+    background-color:#EEBD3F; }
+    .section-courses:hover {
+        background-color:#896fb0 ;
+
+     }
+        .section-formation:hover {
+            background-color:#d2177b; }
+            .section-domain:hover {
+                background-color: #53B9CD ; }
+    .section:focus {
+        background-color: rgba(238, 189, 62, var(--tw-border-opacity)); /* Jaune transparent */
+      }
+      .p:hover{
+        color: white;
+      }
+      
+  

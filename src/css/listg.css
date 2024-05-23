@@ -1,0 +1,12 @@
+/* Ajoutez ce style dans votre fichier CSS */
+.free-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: blue; /* Couleur de fond du badge */
+    color: white; /* Couleur du texte du badge */
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2;
+  }
+  

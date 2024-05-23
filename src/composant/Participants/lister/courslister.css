@@ -1,0 +1,144 @@
+/* CoursGList.css */
+
+/* Styles généraux */*
+.ccoontainer{
+  background-color: #75a0c9da; /* Couleur de fond */
+
+
+}
+.cours-list {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.Ccustom-title {
+  color: #000000; /* Couleur du titre */
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ssearch-ccontainer {
+  margin-bottom: 20px;
+}
+
+.ssearch-bbox {
+  position: relative;
+  width: 100%;
+}
+
+.rrecherche {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #355371; /* Couleur de la bordure */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease; /* Animation de transition */
+}
+
+.rrecherche:focus {
+  border-color: #060708; /* Couleur de la bordure au focus */
+}
+
+.ssearch-iicon {
+  
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #020202;
+  cursor: pointer;
+}
+
+/* Grid pour afficher les cours */
+.cours-grid {
+  margin-right: 20px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
+}
+
+/* Carte de cours */
+.cours-card {
+  border: 1px solid #000000; /* Couleur de la bordure */
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #fff; /* Couleur de fond */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation de transition */
+  display: flex; /* Utilisation de flexbox pour aligner les éléments sur la même ligne */
+  align-items: center; /* Centrage vertical */
+}
+
+/* Titre du cours */
+.cours-title {
+  color: #333;
+  font-size: 24px; /* Taille de la police */
+  font-weight: bold;
+  margin-bottom: 10px;
+  flex: 1; /* Expansion pour occuper l'espace restant */
+}
+
+/* Description du cours */
+.cours-description {
+  color: #666;
+  font-size: 16px; /* Taille de la police */
+  margin-bottom: 20px;
+  flex: 2; /* Expansion pour occuper l'espace restant */
+}
+
+/* Icônes */
+.cours-icon {
+  font-size: 24px; /* Taille de l'icône */
+  margin-right: 10px;
+}
+
+/* Lien pour voir les détails */
+.cours-details-link {
+  color: #28a745;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Animation de transition */
+}
+
+.cours-details-link:hover {
+  color: #218838; /* Couleur au survol */
+}
+
+
+/* Pagination */
+.ppagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.ppagination button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+  transition: color 0.3s ease; /* Animation de transition */
+}
+
+.ppagination button:hover {
+  color: #0056b3; /* Couleur au survol */
+}
+
+.ppagination button:disabled {
+  color: #6c757d; 
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+  .cours-grid {
+    grid-template-columns: 1fr; 
+  }
+}

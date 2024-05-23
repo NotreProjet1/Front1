@@ -1,0 +1,49 @@
+.accountsettings {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accountsettings .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .accountsettings label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .accountsettings input[type='password'] {
+    width: calc(100% - 10px); /* Ajuste la largeur pour compenser la bordure */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .accountsettings button {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accountsettings button:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+  }
+  /* Ajoutez votre style CSS ici */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}

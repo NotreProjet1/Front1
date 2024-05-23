@@ -1,0 +1,191 @@
+.userprofilein {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom:10vh ;
+    gap: 20px;
+}
+/* Style for edit icon */
+.edit-icon {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Show edit icon when hovering over avatar */
+  .flex-shrink-0:hover .edit-icon {
+    display: block;
+  }
+  
+  /* Adjust the z-index to ensure the edit icon is displayed above the avatar */
+  .edit-icon svg {
+    color: #090909; /* Adjust the color of the icon */
+  }
+  .modal-content {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Ajustez la largeur selon vos besoins */
+    margin: auto; /* Centre le modal horizontalement */
+  }
+  
+  .modal-content input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-content button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+  }
+.userprofile .userprofilein .left {
+    width: 20%;
+    /* background-color: aqua; */
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    min-height: 50vh;
+}
+
+.userprofile .userprofilein .right {
+    width: 60%;
+    /* background-color: aqua; */
+    border: 1px solid rgb(5, 4, 4);
+    border-radius: 5px;
+    min-height: 50vh;
+}
+
+@media (max-width: 1000px) {
+    .userprofile .userprofilein .left {
+        width: 30%;
+        border: 1px solid rgb(12, 10, 10);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+
+    .userprofilein {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1000px){
+    .userprofile .userprofilein .left {
+        width: 30%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+    .userprofile .userprofilein .right {
+        width: 68%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+
+    .userprofilein {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 10px;
+    }
+}
+
+/* @media (max-width: 800px) {
+    .userprofile .userprofilein .left {
+        width: 20%;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+    .userprofile .userprofilein .right {
+        width: 78%;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        min-height: 50vh;
+    }
+} */
+.profile-banner {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Assurez-vous que la hauteur correspond à celle de votre image */
+    margin-bottom: -150px;
+    z-index: -1;
+}
+.userprofile{
+    background-image: linear-gradient(to top, white, #757575); /* Dégradé de blanc à bleu de haut en bas */
+
+}
+
+.banner-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    position: absolute;
+    bottom: 0;
+}
+  
+
+  .profile-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Assure que la card a la même hauteur que la classe right */
+  }
+
+  
+
+@media (max-width: 500px){
+    .userprofilein {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 20px;
+    }
+
+    .userprofile .userprofilein .left {
+        width: 97%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        /* min-height: 50vh; */
+        align-self: center;
+        min-height: 0;
+    }
+
+    .userprofile .userprofilein .right {
+        width: 97%;
+        /* background-color: aqua; */
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        /* min-height: 50vh; */
+        align-self: center;
+        min-height: 0;
+    }
+}

@@ -1,0 +1,93 @@
+:root {
+    --col1: #008000; /* Vert */
+}
+
+.extrapageform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.formheading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.fromgroup {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+/* Modifier les styles pour appliquer à la classe .vers */
+.vers {
+    width: 600px; /* Largeur personnalisée */
+    padding: 10px;
+    border: 1px solid var(--col1); /* Bordure verte */
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--col1); /* Fond vert */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005600; /* Foncé au survol */
+}
+
+/* CSS pour styliser le composant Contact */
+.extrapage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacement entre les sections */
+}
+
+.pgcommon {
+    display: flex;
+    align-items: center;
+}
+
+.pgleft {
+    flex-direction: row; /* Par défaut, l'image est à gauche */
+}
+
+.pgright {
+    flex-direction: row-reverse; /* Pour inverser l'ordre des éléments */
+}
+
+.pgcommon img {
+    max-width: 50%; /* Pour limiter la largeur de l'image */
+}
+
+.pgcommon div {
+    flex: 1; /* Pour que le texte occupe tout l'espace restant */
+}
+
+/* Appliquer la couleur var(--col1) aux titres */
+.pgcommon div h1 {
+    color: var(--col1);
+}
+
+.extrapageform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+

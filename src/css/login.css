@@ -1,0 +1,89 @@
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"] {
+  border: 2px solid #007bff; /* Couleur de la bordure bleue */
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-form h1 {
+  padding: 10px 20px;
+}
+
+.login-form .form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.login-form .form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 10px;
+}
+
+.login-form .form .form-group label {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.login-form .form .form-group input:focus {
+  border: 1px solid var(--col1);
+}
+
+.bg-image {
+  background-image: url('/public/images/login.jpeg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+ /* .cardd {
+  background-position: center;
+  margin-top: -200px;
+  background: hsla(0, 0%, 100%, 0.3);
+  backdrop-filter: blur(30px);
+  width: 40%; 
+ 
+}  */
+.card-body {
+  padding: 4rem 4rem;
+  
+}
+
+@media (max-width: 800px) {
+  .login-form .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 10px 20px;
+  }
+
+  .login-form .form .form-group {
+      width: 97%;
+      margin: 10px;
+  }
+
+  .login-form h1 {
+      font-size: 20px;
+  }
+
+  .login-form .form .form-group label {
+      font-size: 16px;
+  }
+}

@@ -1,0 +1,62 @@
+.backgrounddd-container {
+  margin-top: -10px;
+  border-top: 2px solid black;
+  background-image: url('https://img.freepik.com/photos-gratuite/nature-morte-livres-contre-technologie_23-2150063021.jpg?t=st=1714853597~exp=1714857197~hmac=b90539938d7cd0ab327c5052f3ba014089d8c6f88fe213060f21970088394d76&w=996');
+  /* Ajoutez le chemin de votre image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.single-cours-container {
+  color: white;
+  position: relative;
+  margin-left: 160px;
+  z-index: 1;
+  /* Assurez-vous que le contenu est au premier plan */
+  background-color: rgba(4, 4, 4, 0.9);
+  /* Ajoutez un fond semi-transparent pour améliorer la lisibilité */
+  border-radius: 15px;
+  max-width: 1200px;
+  box-shadow: 0 1px 15px rgba(255, 254, 254, 0.971);
+  margin-top: 20px;
+  padding: 20px;
+}
+.centeredd-title {
+  text-align: center;
+}
+
+.cours-info {
+  margin-bottom: 20px;
+}
+
+.cours-content {
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.file-preview {
+  margin-bottom: 20px;
+}
+
+.file-preview iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 500px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

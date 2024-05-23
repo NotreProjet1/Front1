@@ -1,0 +1,129 @@
+/* styles.css */
+
+/* Conteneur principal */
+.add-formation-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  /* Barre latérale */
+  .sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f0f0f0; /* Couleur de fond légèrement plus claire */
+    border: 1px solid #070202; /* Utilisation d'une teinte plus légère pour la bordure */
+  }
+  
+  /* Contenu principal */
+  .main-content {
+    width: 78%; /* 100% - 20% de la sidebar */
+    padding: 20px;
+  }
+  
+  /* Contrôle de formulaire */
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  /* Champ de fichier */
+  .file-input {
+    margin-bottom: 20px;
+  }
+  
+  /* Bouton de soumission */
+  .submit-button {
+    margin-top: 20px;
+  }
+  
+  /* En-tête */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Libellé du formulaire */
+  .form-label {
+    margin-top: 20px;
+    display: block;
+    font-weight: bold; /* Mettre en gras pour plus de visibilité */
+    color: #f6f2f2; /* Couleur légèrement plus foncée */
+  }
+  
+  /* Style du bouton Cours */
+  .sidebar-button {
+    margin-bottom: 10px; /* Espace entre les boutons */
+  }
+  
+  /* Style du bouton Ajouter Formation */
+  .submit-button {
+    width: 100%; /* Bouton étendu sur toute la largeur */
+  }
+  
+  /* Style des options de sélection */
+  .MuiMenuItem-root {
+    font-size: 14px; /* Taille de police légèrement plus petite */
+  }
+  
+  /* Style des options de sélection lorsqu'elles sont sélectionnées */
+  .Mui-selected {
+    background-color: #f0f0f0; /* Couleur de fond légèrement plus claire */
+  }
+  
+  /* Style de la bordure des champs de saisie lorsqu'ils sont en focus */
+  .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #007bff; /* Couleur de la bordure en focus */
+  }
+  .background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+  }
+  .background-radial-gradient {
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);}

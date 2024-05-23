@@ -1,0 +1,74 @@
+/* .formations-container {
+  border-top: 1px solid #111010;
+
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to left, #ffffff, #00ffff);
+}
+
+.formations-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cardDs-container {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.formation-card {
+  background-color: #f9f9f9;
+  border: 1px solid #111010;
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formatTion-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formation-info {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.formation-description {
+  margin-bottom: 10px;
+}
+
+.formation-price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details-button {
+  background-color: #0772e6;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #111010;
+
+  transition: background-color 0.3s;
+}
+
+.details-button:hover {
+  background-color: #fafcff;
+  color: #1ea5ed;
+
+} */

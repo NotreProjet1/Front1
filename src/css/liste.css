@@ -1,0 +1,13 @@
+.new-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red; /* Couleur de fond de l'étiquette "New" */
+    color: white; /* Couleur du texte de l'étiquette "New" */
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+
+  

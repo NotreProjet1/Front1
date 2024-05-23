@@ -1,0 +1,82 @@
+/* styles.css */
+.formation-details {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 3cap 30px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .formation-details h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #09274b;
+  }
+  
+  .formation-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #09274b;
+  }
+  
+  .formation-details p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .formation-details .formation-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .formation-details .formation-info .domaine-niveau {
+    display: flex;
+    align-items: center;
+  }
+  
+  .formation-details .formation-info .domaine-niveau p {
+    margin-right: 20px;
+  }
+  
+  .formation-details .formation-info .domaine-niveau p:last-child {
+    margin-right: 0;
+  }
+  
+  .formation-details .formation-content {
+    margin-top: 20px;
+  }
+  
+  .formation-details .formation-content iframe {
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+    width: 100%;
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .formation-details .download-button {
+    background-color: #09274b;
+    color: #fff;
+    border: none;
+    margin-top: -40px;
+    margin-left: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formation-details .download-button:hover {
+    background-color: #207ada;
+  }
+  
+  .formation-details .download-button i {
+    margin-right: 5px;
+  }
+  

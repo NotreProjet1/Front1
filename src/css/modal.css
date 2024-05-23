@@ -1,0 +1,106 @@
+/* modal.css */
+
+/* Style du fond gris qui recouvre le reste de la page */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style de la fenêtre modale elle-même */
+.ReactModal__Content {
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: hsla(0, 0%, 100%, 0.9); /* Couleur de fond légère */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  outline: none;
+}
+
+/* Style du titre du modal */
+.ReactModal__Content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style du formulaire dans le modal */
+.ReactModal__Content form {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+}
+
+/* Style des labels dans le formulaire */
+.ReactModal__Content label {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style des champs de saisie dans le formulaire */
+.ReactModal__Content input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0e0101;
+  border-radius: 5px;
+}
+
+/* Style du bouton d'enregistrement et d'annulation */
+.ReactModal__Content button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin:10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style du bouton d'enregistrement */
+.ReactModal__Content button.btn-save {
+  background-color: #0f5bd5;
+  color: #ffffff;
+  border: 1px solid #070707;
+  max-width: 30%;
+
+
+}
+
+/* Style du bouton d'annulation */
+.ReactModal__Content button.btn-cancel {
+  background-color: #d51111;
+  color: #ffffff;
+  border: 1px solid #070707;
+  max-width: 30%;
+
+}
+
+/* Hover state pour le bouton d'enregistrement */
+.ReactModal__Content button.btn-save:hover {
+  background-color: #64d9d9;
+}
+.ReactModal__Content button.btn-cancel:hover {
+  background-color: #df5b6c;
+}
+
+/* Style pour le wrapper du formulaire */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style pour le wrapper des boutons */
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,77 @@
+/* CSS pour la page de détail du cours */
+.Ressource-details {
+    padding: 20px;
+    margin: 20px;
+    border-radius:15px;
+    border: 2px solid black  ;
+    background: linear-gradient(to bottom,white, aqua);
+
+  }
+ 
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .hh3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .Ressource-content {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Ressource-download-button{
+    padding: 10px 20px;
+    background-color: #8aa8c9;
+    color: rgb(5, 4, 4);
+    border: 2px solid black  ;
+
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 550px;
+  }
+  
+  .Ressource-download-button:hover {
+    background-color: #ffffff;
+    align-items: center;
+  }
+  
+  .iframeeee {
+    width: 90%;
+    margin: 20px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius:15px;
+    border: 2px solid black  ;
+  }
+  
